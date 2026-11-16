@@ -1,0 +1,8 @@
+{
+  "error_type": "ValueError",
+  "evidence_preserved": true,
+  "message": "Frozen extension inputs changed",
+  "run_directory": "C:\\codex\\数据挖掘技术\\drive-download-20261103T091257Z-1-001\\experiment_v2\\runs\\20261115T114812_115089Z_7968123eacac",
+  "status": "error",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\codex\\数据挖掘技术\\drive-download-20261103T091257Z-1-001\\experiment_v2\\run_experiment.py\", line 364, in main\n    manifest, sources = freeze_and_sources(root, run_dir)\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\codex\\数据挖掘技术\\drive-download-20261103T091257Z-1-001\\experiment_v2\\run_experiment.py\", line 98, in freeze_and_sources\n    raise ValueError(\"Frozen extension inputs changed\")\nValueError: Frozen extension inputs changed\n"
+}

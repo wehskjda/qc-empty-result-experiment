@@ -1,0 +1,30 @@
+{
+  "accepted_pages": [
+    "p2",
+    "p3",
+    "p4"
+  ],
+  "budget": 12,
+  "calls": 7,
+  "completed_pages": 3,
+  "k": 3,
+  "network_failures": 0,
+  "no_progress_calls": 4,
+  "old_page_returns": 0,
+  "protected_network_failures": 0,
+  "remaining_budget": 5,
+  "repeated_calls": 3,
+  "run_id": "F_L12_C_k3",
+  "scenario": "F",
+  "stop_reason": "stagnation",
+  "stop_triggers": {
+    "budget_exhausted": false,
+    "complete": false,
+    "methods_exhausted": false,
+    "stagnation": true
+  },
+  "strategy": "C",
+  "unfinished_pages": [
+    "p1"
+  ]
+}

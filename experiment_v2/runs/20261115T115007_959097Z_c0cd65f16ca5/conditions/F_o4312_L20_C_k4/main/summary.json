@@ -1,0 +1,59 @@
+{
+  "accepted_page_ids": [
+    "p2",
+    "p3",
+    "p4"
+  ],
+  "attempted_count": 4,
+  "attempted_pages": "p1|p2|p3|p4",
+  "budget": 20,
+  "calls": 8,
+  "completed_pages": 3,
+  "coverage_S": 0,
+  "coverage_call": 4,
+  "deferred_stagnation_events": 0,
+  "false_stop": "",
+  "initial_order": [
+    "p4",
+    "p3",
+    "p1",
+    "p2"
+  ],
+  "k": 4,
+  "lost_pages": "",
+  "main_trace_path": "conditions/F_o4312_L20_C_k4/main/events.jsonl",
+  "network_failures": 0,
+  "no_progress_calls": 5,
+  "old_page_returns": 0,
+  "order_id": "4312",
+  "phase": "main",
+  "protected_network_failures": 0,
+  "repeated_calls": 3,
+  "run_id": "F_o4312_L20_C_k4",
+  "scenario": "F",
+  "shadow_extra_calls": "",
+  "shadow_final_pages": "",
+  "shadow_total_calls": "",
+  "shadow_trace_path": "",
+  "stop_info": {
+    "diagnostics": {
+      "coverage_complete": true,
+      "stagnation_blocked_by_coverage": false,
+      "stagnation_threshold_reached": true
+    },
+    "reason": "stagnation",
+    "triggers": {
+      "budget_exhausted": false,
+      "complete": false,
+      "methods_exhausted": false,
+      "stagnation": true
+    }
+  },
+  "stop_reason": "stagnation",
+  "strategy": "C",
+  "unattempted_count": 0,
+  "unattempted_pages": "",
+  "unfinished_page_ids": [
+    "p1"
+  ]
+}

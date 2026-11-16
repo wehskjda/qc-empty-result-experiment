@@ -1,0 +1,42 @@
+{
+  "draft_version": "1",
+  "scope": "reportdraft_only_no_github_upload",
+  "files": [
+    {
+      "path": "实验报告初稿.md",
+      "size_bytes": 32106,
+      "sha256": "7799c0c9f3bf11e79d4503f98c32c66b714608240158dc86b6d50ce35f54b529"
+    },
+    {
+      "path": "实验报告初稿.docx",
+      "size_bytes": 57789,
+      "sha256": "95d9f5d3a7a09230f078f8048b36623d28f6cd26975d00eabdc44e11c0cd4c74"
+    },
+    {
+      "path": "实验报告初稿.pdf",
+      "size_bytes": 362933,
+      "sha256": "930b3823bf5eb4b585c0d1ebed25424013e6425190952e1756356f92dd53b382"
+    },
+    {
+      "path": "提交文件清单.md",
+      "size_bytes": 13946,
+      "sha256": "171c1b03ea4789cb6d49b8f6d292ec0cfefbda642fedfd62a80d334e58ccb46c"
+    },
+    {
+      "path": "参考资料与证据索引.md",
+      "size_bytes": 13941,
+      "sha256": "243324f70422b25570b14bbc125de5eb16b1d2ab2190235d007e788a76668e39"
+    }
+  ],
+  "quality_checks": {
+    "page_count": 15,
+    "tables": 11,
+    "homepage_repository_hyperlink_verified": true,
+    "visual_review": "all15_final_pages_passed; final pages1-7,14-15 identical to reviewedrevision2; changedpages8-13 revieweddirectly",
+    "renderer": "WPS native DOCX layout to PDF then bundledPoppler125dpi",
+    "source_and_local_links_checked": true,
+    "original_v1_files_unchanged": 582,
+    "both_experiment_frozen_inputs_unchanged": true,
+    "complete_chat_markdown_export": "pending_not_fabricated"
+  }
+}

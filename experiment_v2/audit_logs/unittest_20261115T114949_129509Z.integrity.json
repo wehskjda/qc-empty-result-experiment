@@ -1,0 +1,18 @@
+{
+  "test_exit_code": 0,
+  "test_log": "experiment_v2\\audit_logs\\unittest_20261115T114949_129509Z.log",
+  "before": {
+    "declared_files": 29,
+    "actual_files": 29,
+    "extra": [],
+    "missing": [],
+    "hash_or_size_mismatch": []
+  },
+  "after": {
+    "declared_files": 29,
+    "actual_files": 29,
+    "extra": [],
+    "missing": [],
+    "hash_or_size_mismatch": []
+  }
+}

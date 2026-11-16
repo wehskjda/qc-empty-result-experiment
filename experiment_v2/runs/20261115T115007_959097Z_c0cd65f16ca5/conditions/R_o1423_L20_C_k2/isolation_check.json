@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "run_id": "R_o1423_L20_C_k2",
+  "sealed_files": {
+    "conditions/R_o1423_L20_C_k2/main/events.jsonl": "ab5fc39d9d76d18e112de1da4050e18ff12c0393eb445b52f9a877a2e1f1eda1",
+    "conditions/R_o1423_L20_C_k2/main/final_state.json": "67d752727c40988db918105572d6b59b06d59aa6852fad95ab2491d9f403bc24",
+    "conditions/R_o1423_L20_C_k2/main/summary.json": "300890c62b8ff8e28fa95af4d9fb94bd06b2505c5cb803063e342c49baa536a6"
+  },
+  "shadow_executed": true
+}

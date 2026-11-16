@@ -1,0 +1,13 @@
+{
+  "argv": [
+    "experiment_v1\\run_experiment.py"
+  ],
+  "executable": "C:\\Program Files\\WindowsApps\\OpenAI.CodexPrimaryRuntime.v26-1112-611-0_26.1112.611.0_x64__3k8sg7r9htsxt\\dependencies\\python\\python.exe",
+  "expected_answers_used_for_policy": false,
+  "experiment_kind": "controlled_deterministic_fault_replay",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "root": "C:\\codex\\数据挖掘技术\\drive-download-20261103T091257Z-1-001\\experiment_v1",
+  "run_directory": "C:\\codex\\数据挖掘技术\\drive-download-20261103T091257Z-1-001\\experiment_v1\\runs\\20261115T111947_619782Z_e2719d593f82",
+  "started_at_utc": "2026-11-15T11:19:47.619782+00:00"
+}

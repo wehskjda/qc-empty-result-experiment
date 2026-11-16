@@ -1,0 +1,30 @@
+{
+  "accepted_pages": [
+    "p4"
+  ],
+  "budget": 12,
+  "calls": 12,
+  "completed_pages": 1,
+  "k": "",
+  "network_failures": 0,
+  "no_progress_calls": 11,
+  "old_page_returns": 0,
+  "protected_network_failures": 0,
+  "remaining_budget": 0,
+  "repeated_calls": 8,
+  "run_id": "S_L12_A",
+  "scenario": "S",
+  "stop_reason": "budget_exhausted",
+  "stop_triggers": {
+    "budget_exhausted": true,
+    "complete": false,
+    "methods_exhausted": false,
+    "stagnation": false
+  },
+  "strategy": "A",
+  "unfinished_pages": [
+    "p1",
+    "p2",
+    "p3"
+  ]
+}

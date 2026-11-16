@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "experiment_kind": "controlled_deterministic_fault_replay",
+  "document_id": "synthetic_four_pages_v1",
+  "page_order": ["p1", "p2", "p3", "p4"],
+  "methods": ["T", "O"],
+  "initial_method": "T",
+  "budgets": [12, 20],
+  "stagnation_thresholds": [2, 3, 4],
+  "max_attempts_per_page_method": 4,
+  "network_protection_per_document": 2,
+  "protected_http_statuses": [408, 502, 503, 504],
+  "network_classification": "http_status_only_no_message_matching",
+  "ocr_route_code": "NEEDS_OCR",
+  "ocr_route_http_status": 422,
+  "validation": {
+    "cer_limit_numerator": 1,
+    "cer_limit_denominator": 20,
+    "normalization": "Unicode_NFC_then_collapse_whitespace_then_strip",
+    "number_comparison": "exact_decimal_by_field",
+    "require_unique_field_occurrence": true,
+    "provider_success_does_not_imply_acceptance": true
+  },
+  "queue": "FIFO_one_attempt_per_visit_remove_accepted_requeue_pending",
+  "strategy_A": "stay_T_no_error_routing_no_method_attempt_limit",
+  "strategy_B": "NEEDS_OCR_closes_T_else_T4_to_O_O4_closes_page",
+  "strategy_C": "strategy_B_plus_document_stagnation_guard_from_call_1",
+  "stopping_priority": ["complete", "budget_exhausted", "methods_exhausted", "stagnation"],
+  "network_update": "consume_attempt_and_budget_then_freeze_S_if_allowlisted_and_credit_remains_else_increment_S",
+  "new_page_update": "save_first_acceptance_then_reset_S_without_refilling_network_credits",
+  "shadow": "deep_copy_post_call_C_snapshot_disable_only_stagnation_keep_original_budget",
+  "scenarios": ["F", "N", "D", "P", "R", "S", "L"]
+}

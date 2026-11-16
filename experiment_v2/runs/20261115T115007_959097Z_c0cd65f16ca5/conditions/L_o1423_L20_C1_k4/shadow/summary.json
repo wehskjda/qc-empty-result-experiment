@@ -1,0 +1,33 @@
+{
+  "extra_calls": 12,
+  "false_stop": true,
+  "final_pages": 4,
+  "lost_pages": 4,
+  "main_calls": 4,
+  "main_pages": 0,
+  "original_budget": 20,
+  "phase": "shadow",
+  "policy": "B",
+  "recovered_page_ids": [
+    "p1",
+    "p2",
+    "p3",
+    "p4"
+  ],
+  "run_id": "L_o1423_L20_C1_k4",
+  "stop_info": {
+    "diagnostics": {
+      "coverage_complete": true,
+      "stagnation_blocked_by_coverage": false,
+      "stagnation_threshold_reached": false
+    },
+    "reason": "complete",
+    "triggers": {
+      "budget_exhausted": false,
+      "complete": true,
+      "methods_exhausted": false,
+      "stagnation": false
+    }
+  },
+  "total_calls": 16
+}

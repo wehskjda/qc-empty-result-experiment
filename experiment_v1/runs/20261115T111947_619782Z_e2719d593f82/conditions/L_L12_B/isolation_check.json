@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "run_id": "L_L12_B",
+  "sealed_files": {
+    "conditions/L_L12_B/main/events.jsonl": "4f0b0559f1216c74797c16e489cc5039450899d1811ebcc8403a3a89f9cfcbb8",
+    "conditions/L_L12_B/main/final_state.json": "8229933d86174547786b4292808cc32aaf377471ba1fe5e32e8107c6b95f0c39",
+    "conditions/L_L12_B/main/summary.json": "ca7bc072c7f6f8f64cc9f612e47490abf7c6bcc81583d8e4bd8aba79f3378f10"
+  },
+  "shadow_executed": false
+}

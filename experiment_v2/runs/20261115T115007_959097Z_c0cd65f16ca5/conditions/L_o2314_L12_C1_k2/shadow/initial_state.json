@@ -1,0 +1,114 @@
+{
+  "E": 2,
+  "S": 4,
+  "accepted": {},
+  "attempted_pages": [
+    "p1",
+    "p2",
+    "p3",
+    "p4"
+  ],
+  "attempts": {
+    "p1": {
+      "O": 0,
+      "T": 1
+    },
+    "p2": {
+      "O": 0,
+      "T": 1
+    },
+    "p3": {
+      "O": 0,
+      "T": 1
+    },
+    "p4": {
+      "O": 0,
+      "T": 1
+    }
+  },
+  "budget": 12,
+  "calls": 4,
+  "closed_methods": {
+    "p1": [],
+    "p2": [],
+    "p3": [],
+    "p4": []
+  },
+  "coverage_complete": true,
+  "guard_enabled": false,
+  "history": {
+    "0d277785dc34838b40f1669f455f1284a8482ea84c9c8871f58c86f0fb653075": 1,
+    "649e80030eeb61043b7d3237f21187ce61f5b8cb039ac8562a1e214f2d8e27ca": 4,
+    "7cab754e12aa3949d7c08f2e224dd217152818257809ba6cdfbc8126a4023769": 3,
+    "c44ecec86659372f806e07ef5a67a71d42f859eca40a3c5b5834a6f17a8b3b66": 2
+  },
+  "initial_order": [
+    "p2",
+    "p3",
+    "p1",
+    "p4"
+  ],
+  "k": 2,
+  "methods": {
+    "p1": "T",
+    "p2": "T",
+    "p3": "T",
+    "p4": "T"
+  },
+  "network_failures": 0,
+  "no_progress_calls": 4,
+  "old_page_returns": 0,
+  "protected_network_failures": 0,
+  "queue": [
+    "p2",
+    "p3",
+    "p1",
+    "p4"
+  ],
+  "repair_history": {
+    "p1": [
+      {
+        "attempt_n": 1,
+        "global_call": 3,
+        "method": "T",
+        "response_id": "L_p1_T1",
+        "response_sha256": "c3e92a2959271383a01fb7c1c88f037afc24195f3234ac5076b4596f9b645b93",
+        "text_sha256": "5b3912b3db27225fda6b5898e503b9dc6ead4e7b7ee3765e1d1e6b5c9b4dde32"
+      }
+    ],
+    "p2": [
+      {
+        "attempt_n": 1,
+        "global_call": 1,
+        "method": "T",
+        "response_id": "L_p2_T1",
+        "response_sha256": "8a19209b5269bc33d1904800613bac464d496260d997c3a0c43b1cb07bd76900",
+        "text_sha256": "1a642e60e4d0488ce752b2326948fb50019e765ea3c942cd5e53cf14983f678c"
+      }
+    ],
+    "p3": [
+      {
+        "attempt_n": 1,
+        "global_call": 2,
+        "method": "T",
+        "response_id": "L_p3_T1",
+        "response_sha256": "bfa965328778c58eb81de171b970f4463c342733fec754d56ef7980c4de83cc7",
+        "text_sha256": "986e4c9f0d2920d8d0f2b38f907f182bcd1d92b2e1e75c4cbaaae12cf71d4d16"
+      }
+    ],
+    "p4": [
+      {
+        "attempt_n": 1,
+        "global_call": 4,
+        "method": "T",
+        "response_id": "L_p4_T1",
+        "response_sha256": "4990df56a035b7d62aa5b0631d53878b2eeda9f9edc2e7757beb687b3d2adad3",
+        "text_sha256": "845860fab928ed9ad2d641d61a8b89c542c34cb79bd1caeaab12b8895690c964"
+      }
+    ]
+  },
+  "repeated_calls": 0,
+  "scenario": "L",
+  "stop_reason": "stagnation",
+  "strategy": "C1"
+}

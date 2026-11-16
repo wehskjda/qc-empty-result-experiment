@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "run_id": "R_o4321_L20_B",
+  "sealed_files": {
+    "conditions/R_o4321_L20_B/main/events.jsonl": "085e0c4c4aedc54ffd9ef7e4ddf00fe611557ffc6b1510f9f373fea37082427c",
+    "conditions/R_o4321_L20_B/main/final_state.json": "03d4588aa9af0cb71ecb162b09684cb7fa8f14100436879e6bb5e700d692692d",
+    "conditions/R_o4321_L20_B/main/summary.json": "1c9954959b8f7d08d43739b4652f6824af96d42b90f4ab661746578b4199780b"
+  },
+  "shadow_executed": false
+}

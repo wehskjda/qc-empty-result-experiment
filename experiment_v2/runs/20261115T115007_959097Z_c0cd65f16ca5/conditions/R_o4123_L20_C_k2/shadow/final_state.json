@@ -1,0 +1,313 @@
+{
+  "E": 2,
+  "S": 0,
+  "accepted": {
+    "p1": {
+      "attempt_n": 1,
+      "first_call": 2,
+      "method": "T",
+      "normalized_text": "东湾观测记录。采样深度为12米，水温为23.4摄氏度，盐度为31.8。采样时海面较平静，记录员依次核对站位名称、仪器读数和样品标签。正文提取应保留句子的先后顺序，不能把相邻句子拼接成不同结论。本页内容仅用于文档解析实验，不代表真实观测结果。",
+      "source_page_key": "700e8334bc71db80c4ca288f9f5b4268222591a76e0cfd16c866a7f8a1182ddd:p1",
+      "text": "东湾观测记录。采样深度为12米，水温为23.4摄氏度，盐度为31.8。采样时海面较平静，记录员依次核对站位名称、仪器读数和样品标签。正文提取应保留句子的先后顺序，不能把相邻句子拼接成不同结论。本页内容仅用于文档解析实验，不代表真实观测结果。",
+      "validation": {
+        "accepted": true,
+        "cer": 0.0,
+        "cer_limit": 0.05,
+        "cer_ok": true,
+        "edit_distance": 0,
+        "expected_numbers": {
+          "depth": "12",
+          "salinity": "31.8",
+          "temperature": "23.4"
+        },
+        "extracted_numbers": {
+          "depth": [
+            "12"
+          ],
+          "salinity": [
+            "31.8"
+          ],
+          "temperature": [
+            "23.4"
+          ]
+        },
+        "field_occurrences": {
+          "depth": 1,
+          "salinity": 1,
+          "temperature": 1
+        },
+        "normalized_text": "东湾观测记录。采样深度为12米，水温为23.4摄氏度，盐度为31.8。采样时海面较平静，记录员依次核对站位名称、仪器读数和样品标签。正文提取应保留句子的先后顺序，不能把相邻句子拼接成不同结论。本页内容仅用于文档解析实验，不代表真实观测结果。",
+        "number_checks": {
+          "depth": true,
+          "salinity": true,
+          "temperature": true
+        },
+        "reasons": [],
+        "reference_length": 120
+      }
+    },
+    "p2": {
+      "attempt_n": 1,
+      "first_call": 3,
+      "method": "T",
+      "normalized_text": "南湾观测记录。采样深度为18米，水温为21.7摄氏度，盐度为32.6。采样后工作人员检查设备连接，随后将记录与样品登记表逐项核对。正文中的字段名称与数字必须保持对应，不能把深度读数放进水温字段。本页内容仅用于文档解析实验，不代表真实观测结果。",
+      "source_page_key": "700e8334bc71db80c4ca288f9f5b4268222591a76e0cfd16c866a7f8a1182ddd:p2",
+      "text": "南湾观测记录。采样深度为18米，水温为21.7摄氏度，盐度为32.6。采样后工作人员检查设备连接，随后将记录与样品登记表逐项核对。正文中的字段名称与数字必须保持对应，不能把深度读数放进水温字段。本页内容仅用于文档解析实验，不代表真实观测结果。",
+      "validation": {
+        "accepted": true,
+        "cer": 0.0,
+        "cer_limit": 0.05,
+        "cer_ok": true,
+        "edit_distance": 0,
+        "expected_numbers": {
+          "depth": "18",
+          "salinity": "32.6",
+          "temperature": "21.7"
+        },
+        "extracted_numbers": {
+          "depth": [
+            "18"
+          ],
+          "salinity": [
+            "32.6"
+          ],
+          "temperature": [
+            "21.7"
+          ]
+        },
+        "field_occurrences": {
+          "depth": 1,
+          "salinity": 1,
+          "temperature": 1
+        },
+        "normalized_text": "南湾观测记录。采样深度为18米，水温为21.7摄氏度，盐度为32.6。采样后工作人员检查设备连接，随后将记录与样品登记表逐项核对。正文中的字段名称与数字必须保持对应，不能把深度读数放进水温字段。本页内容仅用于文档解析实验，不代表真实观测结果。",
+        "number_checks": {
+          "depth": true,
+          "salinity": true,
+          "temperature": true
+        },
+        "reasons": [],
+        "reference_length": 121
+      }
+    },
+    "p3": {
+      "attempt_n": 1,
+      "first_call": 4,
+      "method": "T",
+      "normalized_text": "西湾观测记录。采样深度为25米，水温为19.8摄氏度，盐度为33.4。记录员先确认仪器状态，再保存原始读数，并注明现场观察到的海面情况。正文提取应包含完整句子，不能将截断的段落当成整页完成。本页内容仅用于文档解析实验，不代表真实观测结果。",
+      "source_page_key": "700e8334bc71db80c4ca288f9f5b4268222591a76e0cfd16c866a7f8a1182ddd:p3",
+      "text": "西湾观测记录。采样深度为25米，水温为19.8摄氏度，盐度为33.4。记录员先确认仪器状态，再保存原始读数，并注明现场观察到的海面情况。正文提取应包含完整句子，不能将截断的段落当成整页完成。本页内容仅用于文档解析实验，不代表真实观测结果。",
+      "validation": {
+        "accepted": true,
+        "cer": 0.0,
+        "cer_limit": 0.05,
+        "cer_ok": true,
+        "edit_distance": 0,
+        "expected_numbers": {
+          "depth": "25",
+          "salinity": "33.4",
+          "temperature": "19.8"
+        },
+        "extracted_numbers": {
+          "depth": [
+            "25"
+          ],
+          "salinity": [
+            "33.4"
+          ],
+          "temperature": [
+            "19.8"
+          ]
+        },
+        "field_occurrences": {
+          "depth": 1,
+          "salinity": 1,
+          "temperature": 1
+        },
+        "normalized_text": "西湾观测记录。采样深度为25米，水温为19.8摄氏度，盐度为33.4。记录员先确认仪器状态，再保存原始读数，并注明现场观察到的海面情况。正文提取应包含完整句子，不能将截断的段落当成整页完成。本页内容仅用于文档解析实验，不代表真实观测结果。",
+        "number_checks": {
+          "depth": true,
+          "salinity": true,
+          "temperature": true
+        },
+        "reasons": [],
+        "reference_length": 119
+      }
+    },
+    "p4": {
+      "attempt_n": 4,
+      "first_call": 7,
+      "method": "T",
+      "normalized_text": "北湾观测记录。采样深度为40米，水温为16.2摄氏度，盐度为34.1。工作人员完成读数检查后整理材料，将站位名称与采样记录放入同一份档案。即使工具显示操作成功，也必须核对返回正文是否属于当前源页。本页内容仅用于文档解析实验，不代表真实观测结※※",
+      "source_page_key": "700e8334bc71db80c4ca288f9f5b4268222591a76e0cfd16c866a7f8a1182ddd:p4",
+      "text": "北湾观测记录。采样深度为40米，水温为16.2摄氏度，盐度为34.1。工作人员完成读数检查后整理材料，将站位名称与采样记录放入同一份档案。即使工具显示操作成功，也必须核对返回正文是否属于当前源页。本页内容仅用于文档解析实验，不代表真实观测结※※",
+      "validation": {
+        "accepted": true,
+        "cer": 0.01639344262295082,
+        "cer_limit": 0.05,
+        "cer_ok": true,
+        "edit_distance": 2,
+        "expected_numbers": {
+          "depth": "40",
+          "salinity": "34.1",
+          "temperature": "16.2"
+        },
+        "extracted_numbers": {
+          "depth": [
+            "40"
+          ],
+          "salinity": [
+            "34.1"
+          ],
+          "temperature": [
+            "16.2"
+          ]
+        },
+        "field_occurrences": {
+          "depth": 1,
+          "salinity": 1,
+          "temperature": 1
+        },
+        "normalized_text": "北湾观测记录。采样深度为40米，水温为16.2摄氏度，盐度为34.1。工作人员完成读数检查后整理材料，将站位名称与采样记录放入同一份档案。即使工具显示操作成功，也必须核对返回正文是否属于当前源页。本页内容仅用于文档解析实验，不代表真实观测结※※",
+        "number_checks": {
+          "depth": true,
+          "salinity": true,
+          "temperature": true
+        },
+        "reasons": [],
+        "reference_length": 122
+      }
+    }
+  },
+  "attempted_pages": [
+    "p1",
+    "p2",
+    "p3",
+    "p4"
+  ],
+  "attempts": {
+    "p1": {
+      "O": 0,
+      "T": 1
+    },
+    "p2": {
+      "O": 0,
+      "T": 1
+    },
+    "p3": {
+      "O": 0,
+      "T": 1
+    },
+    "p4": {
+      "O": 0,
+      "T": 4
+    }
+  },
+  "budget": 20,
+  "calls": 7,
+  "closed_methods": {
+    "p1": [],
+    "p2": [],
+    "p3": [],
+    "p4": []
+  },
+  "coverage_complete": true,
+  "guard_enabled": false,
+  "history": {
+    "45ed40c5f56777297bf72ccb61fdc88bd051039435cea2584cd6629d5770716b": 6,
+    "6128faad34326008dcfba6c442c1131a3b15b95daa563a45c917f3d8ba16e09d": 7,
+    "67fe7d4f5beb3c941ce5e6b41f01820593620d2448f9e62e20df1e2edbe5a82f": 3,
+    "6ef13cd596fd4eb2d0872e809781e53525672c4988b268e76dd64c944e85fcfa": 5,
+    "74e190758f62f2877da6b705673914e6a97790528ca44d8b12678e0c87ae88a6": 2,
+    "85b92894fb054613fa4c64caa3321875bc73388a29618357a535bf3418b59aca": 4,
+    "dfb847c5478d27052998cc049b85a9ba028884d0716b291ea0ed8f80b71e4f6a": 1
+  },
+  "initial_order": [
+    "p4",
+    "p1",
+    "p2",
+    "p3"
+  ],
+  "k": 2,
+  "methods": {
+    "p1": "T",
+    "p2": "T",
+    "p3": "T",
+    "p4": "T"
+  },
+  "network_failures": 0,
+  "no_progress_calls": 3,
+  "old_page_returns": 0,
+  "protected_network_failures": 0,
+  "queue": [],
+  "repair_history": {
+    "p1": [
+      {
+        "attempt_n": 1,
+        "global_call": 2,
+        "method": "T",
+        "response_id": "default_p1",
+        "response_sha256": "dd965050f41b37062c23ed0016b052424ec142b4949f8a8aa7e94fe90615bf48",
+        "text_sha256": "965865de941fd24b189c8cb5aa20bd788ec48b257e2fe6e1d7b4a2db9a17b95f"
+      }
+    ],
+    "p2": [
+      {
+        "attempt_n": 1,
+        "global_call": 3,
+        "method": "T",
+        "response_id": "default_p2",
+        "response_sha256": "2a7742e0d8b7a28d8ada0a16fc0630bf727a2e56a080fdb0f12e2a285119bd55",
+        "text_sha256": "af3d10e374d84f60cf1f52c4fcab4d608f4850e8ef12ceff46f21d05820acb2a"
+      }
+    ],
+    "p3": [
+      {
+        "attempt_n": 1,
+        "global_call": 4,
+        "method": "T",
+        "response_id": "default_p3",
+        "response_sha256": "b436105a3e032ab0dad913b0cb887058bd9c5c36d71a15236d0d5ca58a72535c",
+        "text_sha256": "ee0a60b6f799def240a0ce3b9f2729885b3906c868e8d2ebaddb0e0347ab3119"
+      }
+    ],
+    "p4": [
+      {
+        "attempt_n": 1,
+        "global_call": 1,
+        "method": "T",
+        "response_id": "R_p4_T1",
+        "response_sha256": "348c7e540cf8940db18c7ca18d429b55d38e9d92aafb938853d4208f12abf616",
+        "text_sha256": "e1ebc517819ba395f77abe146f020d7d97048964d149a08dba19659a688b0cd8"
+      },
+      {
+        "attempt_n": 2,
+        "global_call": 5,
+        "method": "T",
+        "response_id": "R_p4_T2",
+        "response_sha256": "c35b1798f6c6593c72e5a6beff9bc1a3595f051d65ae641a2d11409eaec99c06",
+        "text_sha256": "3cbf08f0c62de6949dbef5463dad4a8db2c2158ab8009469df05859f76430b03"
+      },
+      {
+        "attempt_n": 3,
+        "global_call": 6,
+        "method": "T",
+        "response_id": "R_p4_T3",
+        "response_sha256": "39acb5a6e0b26a424c1ee800a2212e79d391252244f14060f3cfd01b9e848a36",
+        "text_sha256": "38555d8fe5871aafa811aac6f8025074d46d7c9eae4306979db78e07ecf538c1"
+      },
+      {
+        "attempt_n": 4,
+        "global_call": 7,
+        "method": "T",
+        "response_id": "R_p4_T4_plus",
+        "response_sha256": "fa60f5b2b1b60fc4313b26e209b0ec2652915df83ba2e22a3230e20b0d091636",
+        "text_sha256": "16f1becf3e6098b1da47ca069198451499fe34b0b0c731684b109d13c60db942"
+      }
+    ]
+  },
+  "repeated_calls": 0,
+  "scenario": "R",
+  "stop_reason": "complete",
+  "strategy": "C"
+}

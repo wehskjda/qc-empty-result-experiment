@@ -1,0 +1,109 @@
+{
+  "E": 2,
+  "S": 3,
+  "accepted": {},
+  "attempted_pages": [
+    "p1",
+    "p2",
+    "p3"
+  ],
+  "attempts": {
+    "p1": {
+      "O": 0,
+      "T": 1
+    },
+    "p2": {
+      "O": 0,
+      "T": 1
+    },
+    "p3": {
+      "O": 0,
+      "T": 1
+    },
+    "p4": {
+      "O": 0,
+      "T": 0
+    }
+  },
+  "budget": 12,
+  "calls": 3,
+  "closed_methods": {
+    "p1": [
+      "T"
+    ],
+    "p2": [
+      "T"
+    ],
+    "p3": [
+      "T"
+    ],
+    "p4": []
+  },
+  "coverage_complete": false,
+  "guard_enabled": true,
+  "history": {
+    "11c28c8667b23ccadd1ea014b6c62672aba75fd43cd692c878cb9a7b6f317744": 1,
+    "52feddef7c78bab9d95f874c7d3e1d7bd8688fac8cb93a2d0d97b479d629681a": 3,
+    "f3d3e67a9416e81fc4fbda74d140ac9c49bb75c9708adc6ebd867a02cfa99441": 2
+  },
+  "initial_order": [
+    "p3",
+    "p1",
+    "p2",
+    "p4"
+  ],
+  "k": 3,
+  "methods": {
+    "p1": "O",
+    "p2": "O",
+    "p3": "O",
+    "p4": "T"
+  },
+  "network_failures": 0,
+  "no_progress_calls": 3,
+  "old_page_returns": 0,
+  "protected_network_failures": 0,
+  "queue": [
+    "p4",
+    "p3",
+    "p1",
+    "p2"
+  ],
+  "repair_history": {
+    "p1": [
+      {
+        "attempt_n": 1,
+        "global_call": 2,
+        "method": "T",
+        "response_id": "p1_needs_ocr",
+        "response_sha256": "173cda3eb974f9aba4ab810768a5a555231127e975e21b259011bfff67df1bba",
+        "text_sha256": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126"
+      }
+    ],
+    "p2": [
+      {
+        "attempt_n": 1,
+        "global_call": 3,
+        "method": "T",
+        "response_id": "p2_needs_ocr",
+        "response_sha256": "ac97c6ea3fbc02b996506dd09a622e408c320f1e6bc6eb1d8d34a4186a5dba13",
+        "text_sha256": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126"
+      }
+    ],
+    "p3": [
+      {
+        "attempt_n": 1,
+        "global_call": 1,
+        "method": "T",
+        "response_id": "p3_needs_ocr",
+        "response_sha256": "a72cb835e08e94ef891b1640fd67ebbebfe585b0987fe439906bbff345716250",
+        "text_sha256": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126"
+      }
+    ],
+    "p4": []
+  },
+  "repeated_calls": 0,
+  "scenario": "S",
+  "stop_reason": "stagnation",
+  "strategy": "C"
+}

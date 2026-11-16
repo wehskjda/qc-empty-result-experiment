@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "comparison": "exact_decimal_by_field",
+  "fields": {
+    "depth": {"label": "采样深度", "prefix": "采样深度为", "suffix": "米"},
+    "temperature": {"label": "水温", "prefix": "水温为", "suffix": "摄氏度"},
+    "salinity": {"label": "盐度", "prefix": "盐度为", "suffix": ""}
+  },
+  "pages": {
+    "p1": {"depth": "12", "temperature": "23.4", "salinity": "31.8"},
+    "p2": {"depth": "18", "temperature": "21.7", "salinity": "32.6"},
+    "p3": {"depth": "25", "temperature": "19.8", "salinity": "33.4"},
+    "p4": {"depth": "40", "temperature": "16.2", "salinity": "34.1"}
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "artifacts": {
+    "S_and_R_by_p4_position.csv": "1b6bf48635f466dccfa434ee49c3688c040841b7423b4770f93f1aa63b3694f9",
+    "all_shadow_results.csv": "0397b7150ad802db753a11168d78306077127d6eb5d915a0df5b6b23d410bed1",
+    "analysis.json": "ff0240749db968d71dd10c26f0e20385c229705e6e178194c9fa429a78d205fc",
+    "canonical_C1_vs_C.csv": "b410e47b8bc273d4cffb827d165f51dc992bd69a2fc0ab89b338790718c25aff",
+    "canonical_details.md": "04a3b4af6124f286e123982934ba628b01077ee2d5f2318c23c223b9921b2307",
+    "order_aggregate.csv": "aa2765b8716069248ad19efdba1f20e23cc2b4a342b577d133461ab5cb52bdd1",
+    "paired_C1_vs_C.csv": "65a4c74c446e01461427bea5497e0ef286352ec1f8d22f719098af6353da1481",
+    "results.md": "4aad1cbde64172ad89516a872e608fe87b824075e9a9900eec882cc1e7e88187",
+    "trace_examples.md": "a3a8da597ac5de65c6f598f10af7d80b5bfe2e54140c7a16e0bf5b1f27e0dd12"
+  },
+  "build_report_sha256": "966eb2bd8f5613a73e1ba78ad42e8a69edc2ea123b8e0a0947d22ca53fbf0069",
+  "source_run": "20261115T115007_959097Z_c0cd65f16ca5",
+  "source_summary_sha256": "d65b24368067f3c676bda28b7081c97380722fdcd448bb1bae99b25a7ed703b2"
+}

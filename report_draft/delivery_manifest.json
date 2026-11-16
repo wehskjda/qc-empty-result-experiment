@@ -1,0 +1,69 @@
+{
+  "draft_version": "2_benefits_costs_attribution_review",
+  "scope": "report_revision_only_no_new_experiment_no_github_upload",
+  "files": [
+    {
+      "path": "实验报告初稿.md",
+      "size_bytes": 38760,
+      "sha256": "965d475081d7edd44ae3dc2397932ddc21477ada26ae36ba30a1dda1a03a6bb5"
+    },
+    {
+      "path": "实验报告初稿.docx",
+      "size_bytes": 61314,
+      "sha256": "cfe2440237e9161cc94033612b186a38d2f4a8b707775391de615e3a3447833d"
+    },
+    {
+      "path": "实验报告初稿.pdf",
+      "size_bytes": 379764,
+      "sha256": "7c8ecf6126b64023a55301774ba9840e34001978d86601428071f298c3d27dd9"
+    },
+    {
+      "path": "本轮修订审阅说明.md",
+      "size_bytes": 5895,
+      "sha256": "bbb4a2386dbbb984ecea9d495710dc64cce3ccd3a7084dd4d5b489ae94d8e787"
+    },
+    {
+      "path": "AI协作来源核对.md",
+      "size_bytes": 6938,
+      "sha256": "008f689db53cc0c75319c9196a1f19ee9a01c3513b737272f956508ba723c3ef"
+    },
+    {
+      "path": "提交文件清单.md",
+      "size_bytes": 14854,
+      "sha256": "398c8b939a04deee3ab105518120012e98e1fdbb32c801f5626665e1af45d013"
+    },
+    {
+      "path": "参考资料与证据索引.md",
+      "size_bytes": 13941,
+      "sha256": "243324f70422b25570b14bbc125de5eb16b1d2ab2190235d007e788a76668e39"
+    },
+    {
+      "path": "build_document.py",
+      "size_bytes": 10141,
+      "sha256": "388069cb06431bc4e1c7b7dd08bcdcca10a6796e61df7f53b9698247d6d6e031"
+    },
+    {
+      "path": "export_with_wps.ps1",
+      "size_bytes": 1270,
+      "sha256": "2cfb4a17e399655b500a6e53058b5f114f33e497dc0a466dfb9aedf02186d770"
+    }
+  ],
+  "quality_checks": {
+    "page_count": 18,
+    "tables": 12,
+    "homepage_repository_hyperlink_verified": true,
+    "local_links_checked": 149,
+    "missing_local_links": [],
+    "visual_review": "all18pages_passed; final5and12-17reviewed_again_after_minorformatting; remainingpages_hash_identical_to_reviewedrender",
+    "renderer": "WPS native DOCX layout to PDF then bundled Poppler 125dpi; canonical renderer lacked soffice.exe",
+    "original_v1_files_unchanged": 582,
+    "both_experiment_frozen_inputs_unchanged": true,
+    "new_experiments_or_reruns": false,
+    "first_draft_archive_verified_files": 7,
+    "attribution_review": "user_originals_vs_AI_suggestions_vs_user_adoption_judgments_vs_AI_execution_distinguished",
+    "classroom_same_error_count_rule": "not_independently_implemented_or_compared; B_is_not_that_rule",
+    "complete_chat_markdown_export": "pending_not_fabricated",
+    "github_upload": "pending; no_upload_performed_in_this_revision",
+    "personal_information": "blank_pending_user_review"
+  }
+}

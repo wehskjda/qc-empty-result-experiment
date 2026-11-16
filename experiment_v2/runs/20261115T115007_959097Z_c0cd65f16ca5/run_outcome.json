@@ -1,0 +1,16 @@
+{
+  "audit_passed": true,
+  "canonical_conditions": 112,
+  "comparison_differences": 0,
+  "finished_at_utc": "2026-11-15T11:51:31.386141+00:00",
+  "input_changes": [],
+  "main_calls": 14306,
+  "permutation_conditions": 2352,
+  "run_directory": "C:\\codex\\数据挖掘技术\\drive-download-20261103T091257Z-1-001\\experiment_v2\\runs\\20261115T115007_959097Z_c0cd65f16ca5",
+  "shadow_calls": 6012,
+  "shadow_runs": 1092,
+  "source_changes": [],
+  "status": "passed",
+  "unique_main_conditions": 2366,
+  "v1_regression_passed": true
+}

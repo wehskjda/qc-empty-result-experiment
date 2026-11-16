@@ -1,0 +1,27 @@
+{
+  "document_id": "synthetic_four_pages_v1",
+  "document_sha256": "700e8334bc71db80c4ca288f9f5b4268222591a76e0cfd16c866a7f8a1182ddd",
+  "representation": "four_logical_text_pages_not_a_real_pdf",
+  "pages": [
+    {
+      "page_id": "p1",
+      "path": "reference_pages/p1.txt",
+      "sha256": "2f961093be8a1f5b9d0df55da30f76e899489e498c6c932cc0332eb3b4208c7d"
+    },
+    {
+      "page_id": "p2",
+      "path": "reference_pages/p2.txt",
+      "sha256": "38a5a0c11486963a1ea35cc79a7ab1eb12c62057656a47513f526003525b52a5"
+    },
+    {
+      "page_id": "p3",
+      "path": "reference_pages/p3.txt",
+      "sha256": "2345b6aa28c1ddf669da9271eaae5ea3bbd33eb8cd18fd1bddf0bc2c9f211c12"
+    },
+    {
+      "page_id": "p4",
+      "path": "reference_pages/p4.txt",
+      "sha256": "cfeeb59ebf7f0dc3a22e3eff5eb2a1937bebe44bae0bcd943ff04a3e6b567afc"
+    }
+  ]
+}

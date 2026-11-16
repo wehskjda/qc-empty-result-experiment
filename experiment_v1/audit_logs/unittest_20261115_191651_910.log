@@ -1,0 +1,36 @@
+test_budget_tie_has_priority_over_stagnation (test_replay.ReplayProtocolTests.test_budget_tie_has_priority_over_stagnation) ... ok
+test_completion_at_last_budget_call_has_priority (test_replay.ReplayProtocolTests.test_completion_at_last_budget_call_has_priority) ... ok
+test_conflicting_duplicate_field_rejected_even_with_low_cer (test_replay.ReplayProtocolTests.test_conflicting_duplicate_field_rejected_even_with_low_cer) ... ok
+test_edit_distance_is_computed_from_text (test_replay.ReplayProtocolTests.test_edit_distance_is_computed_from_text) ... ok
+test_error_message_changes_do_not_create_new_progress_or_new_failure (test_replay.ReplayProtocolTests.test_error_message_changes_do_not_create_new_progress_or_new_failure) ... ok
+test_exact_decimal_equivalence_and_sign_are_respected (test_replay.ReplayProtocolTests.test_exact_decimal_equivalence_and_sign_are_respected) ... ok
+test_exact_five_percent_boundary_and_number_gate (test_replay.ReplayProtocolTests.test_exact_five_percent_boundary_and_number_gate) ... ok
+test_faults_are_independent_of_call_order_and_caller_mutations (test_replay.ReplayProtocolTests.test_faults_are_independent_of_call_order_and_caller_mutations) ... ok
+test_field_values_are_not_an_unassigned_bag_of_numbers (test_replay.ReplayProtocolTests.test_field_values_are_not_an_unassigned_bag_of_numbers) ... ok
+test_four_network_failures_consume_each_method_limit (test_replay.ReplayProtocolTests.test_four_network_failures_consume_each_method_limit) ... ok
+test_fourth_attempt_success_is_accepted_before_stagnation_check (test_replay.ReplayProtocolTests.test_fourth_attempt_success_is_accepted_before_stagnation_check) ... ok
+test_frozen_inputs_have_not_changed (test_replay.ReplayProtocolTests.test_frozen_inputs_have_not_changed) ... ok
+test_http_allowlist_not_error_wording_controls_network_protection (test_replay.ReplayProtocolTests.test_http_allowlist_not_error_wording_controls_network_protection) ... ok
+test_identical_text_on_distinct_source_pages_counts_twice (test_replay.ReplayProtocolTests.test_identical_text_on_distinct_source_pages_counts_twice) ... FAIL
+test_low_cer_does_not_hide_wrong_critical_number (test_replay.ReplayProtocolTests.test_low_cer_does_not_hide_wrong_critical_number) ... ok
+test_needs_ocr_route_requires_both_status_and_code (test_replay.ReplayProtocolTests.test_needs_ocr_route_requires_both_status_and_code) ... ok
+test_network_freezes_existing_nonzero_stagnation_then_method_cap_wins (test_replay.ReplayProtocolTests.test_network_freezes_existing_nonzero_stagnation_then_method_cap_wins) ... ok
+test_network_protection_is_not_refilled_by_page_or_new_progress (test_replay.ReplayProtocolTests.test_network_protection_is_not_refilled_by_page_or_new_progress) ... ok
+test_numeric_prefixes_cannot_match_a_longer_malformed_value (test_replay.ReplayProtocolTests.test_numeric_prefixes_cannot_match_a_longer_malformed_value) ... ok
+test_repetition_excludes_attempt_counter_but_not_distinct_methods (test_replay.ReplayProtocolTests.test_repetition_excludes_attempt_counter_but_not_distinct_methods) ... ok
+test_shadow_uses_next_attempt_in_independent_state_and_matches_B (test_replay.ReplayProtocolTests.test_shadow_uses_next_attempt_in_independent_state_and_matches_B) ... ok
+test_success_status_and_claimed_current_page_cannot_accept_old_body (test_replay.ReplayProtocolTests.test_success_status_and_claimed_current_page_cannot_accept_old_body) ... ok
+test_success_without_a_body_fails (test_replay.ReplayProtocolTests.test_success_without_a_body_fails) ... ok
+
+======================================================================
+FAIL: test_identical_text_on_distinct_source_pages_counts_twice (test_replay.ReplayProtocolTests.test_identical_text_on_distinct_source_pages_counts_twice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\codex\�����ھ���\drive-download-20261103T091257Z-1-001\experiment_v1\tests\test_replay.py", line 273, in test_identical_text_on_distinct_source_pages_counts_twice
+    self.assertFalse(any(e["old_page_return"] for e in events))
+AssertionError: True is not false
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.302s
+
+FAILED (failures=1)

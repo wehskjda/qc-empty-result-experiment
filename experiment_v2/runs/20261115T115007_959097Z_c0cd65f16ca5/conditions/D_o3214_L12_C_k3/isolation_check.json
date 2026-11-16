@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "run_id": "D_o3214_L12_C_k3",
+  "sealed_files": {
+    "conditions/D_o3214_L12_C_k3/main/events.jsonl": "9453eb9315cb1ceb8df04623fd12b2673931156508109d2a8d8f288ad45ad298",
+    "conditions/D_o3214_L12_C_k3/main/final_state.json": "431c9fbfbdd4da65a59045d5115914803929873a343409cee5cd1f91ae9c3581",
+    "conditions/D_o3214_L12_C_k3/main/summary.json": "86ec24e4b6ee6b256b93cfdfa45a5a2258d8533ff2cf5b252b1ad48929cb41bd"
+  },
+  "shadow_executed": true
+}

@@ -1,0 +1,68 @@
+{
+  "E": 2,
+  "S": 0,
+  "accepted": {},
+  "attempted_pages": [],
+  "attempts": {
+    "p1": {
+      "O": 0,
+      "T": 0
+    },
+    "p2": {
+      "O": 0,
+      "T": 0
+    },
+    "p3": {
+      "O": 0,
+      "T": 0
+    },
+    "p4": {
+      "O": 0,
+      "T": 0
+    }
+  },
+  "budget": 12,
+  "calls": 0,
+  "closed_methods": {
+    "p1": [],
+    "p2": [],
+    "p3": [],
+    "p4": []
+  },
+  "coverage_complete": false,
+  "guard_enabled": true,
+  "history": {},
+  "initial_order": [
+    "p3",
+    "p2",
+    "p1",
+    "p4"
+  ],
+  "k": 4,
+  "methods": {
+    "p1": "T",
+    "p2": "T",
+    "p3": "T",
+    "p4": "T"
+  },
+  "network_failures": 0,
+  "no_progress_calls": 0,
+  "old_page_returns": 0,
+  "protected_network_failures": 0,
+  "queue": [
+    "p3",
+    "p2",
+    "p1",
+    "p4"
+  ],
+  "repair_history": {
+    "p1": [],
+    "p2": [],
+    "p3": [],
+    "p4": []
+  },
+  "repeated_calls": 0,
+  "scenario": "F",
+  "stop_reason": null,
+  "strategy": "C"
+}
