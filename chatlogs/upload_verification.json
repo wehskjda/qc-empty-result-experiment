@@ -1,0 +1,76 @@
+{
+  "checked_at": "2026-11-16T17:00:29+08:00",
+  "repository": "https://github.com/wehskjda/qc-empty-result-experiment",
+  "content_commit": "e9cef0c4d458189a78baa3113f10c95e816e5eba",
+  "public": true,
+  "verification_auth": "anonymous Git clone with credential helpers and extra headers disabled; raw HTTP with no Authorization header",
+  "anonymous_git_and_raw_http_verified": true,
+  "remote_files_verified": 19287,
+  "all_remote_git_blob_hashes_match_local_index": true,
+  "raw_file_checks": [
+    {
+      "path": "README.md",
+      "status": 200,
+      "bytes": 2854,
+      "sha256": "ba70b7e5304f5b3e12efc88d33b21978f0a5f6681b627ec7f6906bc6e9a941b4",
+      "url": "https://raw.githubusercontent.com/wehskjda/qc-empty-result-experiment/e9cef0c4d458189a78baa3113f10c95e816e5eba/README.md"
+    },
+    {
+      "path": "chatlogs/完整聊天记录.md",
+      "status": 200,
+      "bytes": 54629,
+      "sha256": "67bb1f91990701afd9664f58b98f1c20a40c7fd982b0b765935761475a59c50f",
+      "url": "https://raw.githubusercontent.com/wehskjda/qc-empty-result-experiment/e9cef0c4d458189a78baa3113f10c95e816e5eba/chatlogs/%E5%AE%8C%E6%95%B4%E8%81%8A%E5%A4%A9%E8%AE%B0%E5%BD%95.md"
+    },
+    {
+      "path": "chatlogs/export_manifest.json",
+      "status": 200,
+      "bytes": 19292,
+      "sha256": "d25e72c1857839ad0593e232ef52d1003959cfb3c70ef9087b84a81e236512ee",
+      "url": "https://raw.githubusercontent.com/wehskjda/qc-empty-result-experiment/e9cef0c4d458189a78baa3113f10c95e816e5eba/chatlogs/export_manifest.json"
+    },
+    {
+      "path": "report_draft/实验报告_提交版.pdf",
+      "status": 200,
+      "bytes": 395390,
+      "sha256": "aee38f7f517a6c3d4027a64de7900d083ffbe738f25a68f401bd9da282ecbd09",
+      "url": "https://raw.githubusercontent.com/wehskjda/qc-empty-result-experiment/e9cef0c4d458189a78baa3113f10c95e816e5eba/report_draft/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A_%E6%8F%90%E4%BA%A4%E7%89%88.pdf"
+    },
+    {
+      "path": "report_draft/实验报告_提交版.docx",
+      "status": 200,
+      "bytes": 78298,
+      "sha256": "6f749836342996caeece042d92304e4e2c94f95af582da4df5cf63c2ce2cb5a8",
+      "url": "https://raw.githubusercontent.com/wehskjda/qc-empty-result-experiment/e9cef0c4d458189a78baa3113f10c95e816e5eba/report_draft/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A_%E6%8F%90%E4%BA%A4%E7%89%88.docx"
+    },
+    {
+      "path": "report_draft/实验报告_提交版.md",
+      "status": 200,
+      "bytes": 38713,
+      "sha256": "325a06bfb015fae3e4906ec1fb516682891568c468f5a3bd936714a44346e116",
+      "url": "https://raw.githubusercontent.com/wehskjda/qc-empty-result-experiment/e9cef0c4d458189a78baa3113f10c95e816e5eba/report_draft/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A_%E6%8F%90%E4%BA%A4%E7%89%88.md"
+    },
+    {
+      "path": "experiment_v1/README.md",
+      "status": 200,
+      "bytes": 3071,
+      "sha256": "7b88537a3ae2e60f6a6adc6bc6bc3792d164868aaba092616a3d1a390882e9f7",
+      "url": "https://raw.githubusercontent.com/wehskjda/qc-empty-result-experiment/e9cef0c4d458189a78baa3113f10c95e816e5eba/experiment_v1/README.md"
+    },
+    {
+      "path": "experiment_v2/README.md",
+      "status": 200,
+      "bytes": 3041,
+      "sha256": "b955e7e5be223b5227d75efad32c86f71bbeb0a8e536e15ff16cf77748f0e5e8",
+      "url": "https://raw.githubusercontent.com/wehskjda/qc-empty-result-experiment/e9cef0c4d458189a78baa3113f10c95e816e5eba/experiment_v2/README.md"
+    }
+  ],
+  "chat_scope": "49 public experimental-chat messages through 2026-11-16 15:49:59.473 +08:00",
+  "local_reproduction_checks": {
+    "v1_tests_passed": 25,
+    "v2_tests_passed": 37,
+    "report_pages": 18,
+    "toc_page_numbers_verified": 33,
+    "references_start_page": 18
+  }
+}
